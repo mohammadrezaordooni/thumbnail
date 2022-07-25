@@ -58,7 +58,7 @@ class Thumbnail
 
 
 // File upload path
-        $uploadPath = "uploads/";
+        $uploadPath = "uploads/thumbnails/";
         if(!is_dir($uploadPath)) {
             mkdir($uploadPath);
         }
