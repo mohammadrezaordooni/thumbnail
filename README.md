@@ -22,7 +22,7 @@ Add the following code to aliases in config/app.php
     {
         # create function arguments: create($_FILES['image'],$quality,$newWidth,newHeight);
         # the defaults are $quality=100 & $newWidth=300 & newHeight=300.
-        # files will be upload in "public/uploads/thumbnails/" directory.
+        # Images will be upload in "public/uploads/thumbnails/" directory.
         $image=\Thumbnail::create($request->image,100,200,200);
         Post::create([
             'image'=>$image,
