@@ -1,0 +1,23 @@
+{
+    "name": "mro/thumbnail",
+    "description": "This Package Use To Create Thumbnail Image in Laravel (Writer:MohammadRezaOrdooni)",
+    "autoload": {
+        "psr-4": {
+            "Mro\\Thumbnail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MohammadReza Ordooni",
+            "email": "mohammadreza.ordooni1998@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": false
+        }
+    }
+}
