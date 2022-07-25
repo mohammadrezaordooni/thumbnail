@@ -4,8 +4,6 @@ Thumbnail Can Use To Create Image Thumbnail In Laravel.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 ```bash
 composer require mro/thumbnail
 ```
